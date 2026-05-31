@@ -30,7 +30,7 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 - GitHub Actions
 - AWS S3
 
-## CI/CD Workflow
+## CI/CD Workflow:
 
 1. Developer pushes code to GitHub
 2. GitHub Actions workflow triggers automatically
