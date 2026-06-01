@@ -53,11 +53,11 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 - Add product filtering
 - Add responsive animations
 
-# Author
-# ANEES FATIMA
+### Author
+### ANEES FATIMA
 
 ## Step 1 — Create the Static Website
-# index.html
+### index.html
 
 ```html
 <!DOCTYPE html>
@@ -110,7 +110,7 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 
 ---
 
-#style.css
+### style.css
 
 ```css
 
@@ -197,7 +197,7 @@ footer {
 
 ---
 
-# script.js
+### script.js
 
  ```
  function shopNow() {
@@ -207,7 +207,7 @@ footer {
 
 ---
 
-Step 2 — Create GitHub Repository
+## Step 2 — Create GitHub Repository
 
 Create a New Repository
 
@@ -250,7 +250,7 @@ git push -u origin main
 
 ---
 
-Step 3 — Create AWS S3 Bucket
+## Step 3 — Create AWS S3 Bucket
 
 Open AWS S3
 
@@ -291,7 +291,7 @@ index.html
 
 ---
 
-Step 4 — Add Bucket Policy
+## Step 4 — Add Bucket Policy
 
 Go to:
 
@@ -321,7 +321,7 @@ with your actual bucket name.
 
 ---
 
-Step 5 — Create IAM User for GitHub Actions
+## Step 5 — Create IAM User for GitHub Actions
 
 Create User
 
@@ -356,7 +356,7 @@ You will use these inside GitHub secrets.
 
 
 ---
-Step 6 — Configure GitHub Secrets
+## Step 6 — Configure GitHub Secrets
 
 Go to:
 
@@ -377,7 +377,7 @@ Example:
 
 ---
 
-Step 7 — Create GitHub Actions Workflow
+## Step 7 — Create GitHub Actions Workflow
 
 Create file:
 
@@ -414,7 +414,7 @@ jobs:
 
 ---
 
-Step 8 — Push Updated Workflow
+## Step 8 — Push Updated Workflow
 
 Run:
 ```
@@ -427,7 +427,7 @@ git push origin main
 
 ---
 
-Step 9 — Verify Deployment
+## Step 9 — Verify Deployment
 
 Go to:
 
@@ -446,7 +446,7 @@ Your jewelry website should be live.
 
 ---
 
-Step 10 — Configure CloudFront (Optional but Recommended)
+## Step 10 — Configure CloudFront (Optional but Recommended)
 
 Create CloudFront Distribution
 
@@ -474,17 +474,17 @@ Professional architecture
 
 
 ---
-Important AWS Cost Tips
+### Important AWS Cost Tips
 
 To avoid charges:
 
-Delete unused CloudFront distributions
+- Delete unused CloudFront distributions
 
-Delete unused S3 buckets
+- Delete unused S3 buckets
 
-Stay within free tier limits
+- Stay within free tier limits
 
-Avoid large AWS services for now
+- Avoid large AWS services for now
 
 
 
