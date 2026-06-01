@@ -107,7 +107,7 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 
 ---
 
-# style.css
+##style.css
 
 ```css
 * {
@@ -188,7 +188,8 @@ footer {
     padding: 20px;
     background: #111;
     color: white;
-}```
+}
+```
 
 ---
 
@@ -197,7 +198,8 @@ footer {
  ```
  function shopNow() {
     alert("Welcome to Luxe Jewelry Store!");
-}```
+}
+```
 
 
 
