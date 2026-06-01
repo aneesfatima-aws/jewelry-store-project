@@ -103,13 +103,15 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
     </footer>
 <script src="script.js"></script>
 </body>
-</html>```
+</html>
+```
 
 ---
 
-##style.css
+#style.css
 
 ```css
+
 * {
     margin: 0;
     padding: 0;
