@@ -58,7 +58,6 @@ ANEES FATIMA
 Step 1 — Create the Static Website
 
 index.html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,8 +67,7 @@ index.html
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
+ <header>
         <h1>Luxe Jewelry</h1>
         <nav>
             <a href="#">Home</a>
@@ -78,41 +76,34 @@ index.html
             <a href="#contact">Contact</a>
         </nav>
     </header>
-
-    <section class="hero">
+<section class="hero">
         <h2>Elegant Jewelry for Every Occasion</h2>
         <p>Luxury collections crafted with perfection.</p>
         <button onclick="shopNow()">Shop Now</button>
     </section>
-
-    <section id="products" class="products">
+<section id="products" class="products">
         <div class="card">
             <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=800" alt="Ring">
             <h3>Diamond Ring</h3>
             <p>$299</p>
         </div>
-
-        <div class="card">
+ <div class="card">
             <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=800" alt="Necklace">
             <h3>Gold Necklace</h3>
             <p>$499</p>
         </div>
-
-        <div class="card">
+<div class="card">
             <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800" alt="Bracelet">
             <h3>Silver Bracelet</h3>
             <p>$199</p>
         </div>
     </section>
-
-    <footer>
+<footer>
         <p>© 2026 Luxe Jewelry Store</p>
     </footer>
-
 <script src="script.js"></script>
 </body>
 </html>
-
 
 ---
 
@@ -151,7 +142,6 @@ nav a {
     background: linear-gradient(to right, #f4d03f, #f39c12);
     color: white;
 }
-
 .hero h2 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -199,12 +189,11 @@ footer {
     color: white;
 }
 
-
 ---
 
 script.js
 
-function shopNow() {
+ function shopNow() {
     alert("Welcome to Luxe Jewelry Store!");
 }
 
