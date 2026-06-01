@@ -109,7 +109,7 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 
 # style.css
 
-```
+```css
 * {
     margin: 0;
     padding: 0;
