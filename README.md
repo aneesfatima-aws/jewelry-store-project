@@ -51,12 +51,12 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 - Add product filtering
 - Add responsive animations
 
-## Author
-## ANEES FATIMA
+# Author
+# ANEES FATIMA
 
-# Step 1 — Create the Static Website
+## Step 1 — Create the Static Website
 # index.html
-<!DOCTYPE html>
+'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -101,13 +101,13 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
     </footer>
 <script src="script.js"></script>
 </body>
-</html>
+</html>'''
 
 ---
 
 # style.css
 
-* {
+'''* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -185,15 +185,15 @@ footer {
     padding: 20px;
     background: #111;
     color: white;
-}
+}'''
 
 ---
 
 # script.js
 
- function shopNow() {
+ '''function shopNow() {
     alert("Welcome to Luxe Jewelry Store!");
-}
+}'''
 
 
 
