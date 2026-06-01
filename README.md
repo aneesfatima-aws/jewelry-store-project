@@ -52,12 +52,10 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 - Add responsive animations
 
 ## Author
+## ANEES FATIMA
 
-ANEES FATIMA
-
-Step 1 — Create the Static Website
-
-index.html
+# Step 1 — Create the Static Website
+# index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,7 +105,7 @@ index.html
 
 ---
 
-style.css
+# style.css
 
 * {
     margin: 0;
@@ -191,7 +189,7 @@ footer {
 
 ---
 
-script.js
+# script.js
 
  function shopNow() {
     alert("Welcome to Luxe Jewelry Store!");
