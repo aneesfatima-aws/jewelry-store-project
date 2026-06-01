@@ -56,7 +56,9 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 
 ## Step 1 — Create the Static Website
 # index.html
-'''<!DOCTYPE html>
+
+'''html
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -107,7 +109,8 @@ GitHub → GitHub Actions → AWS S3 → CloudFront → Users
 
 # style.css
 
-'''* {
+'''
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -191,7 +194,8 @@ footer {
 
 # script.js
 
- '''function shopNow() {
+ '''
+ function shopNow() {
     alert("Welcome to Luxe Jewelry Store!");
 }'''
 
