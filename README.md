@@ -1,4 +1,6 @@
 # AWS Static Jewelry Store with CI/CD
+<img width="1536" height="1024" alt="WhatsApp Image 2026-06-01 at 5 15 32 AM" src="https://github.com/user-attachments/assets/9d2617f2-bcfb-4b20-afe2-5dce87adb35c" />
+
 
 ## Project Overview
 
